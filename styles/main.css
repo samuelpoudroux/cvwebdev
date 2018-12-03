@@ -8014,12 +8014,21 @@ li span{
 
   .skills{
     font-size: 1.1em;
+    
   }
+
 
   .skillsection {
     justify-content: flex-start;
-}
+  }
+
+  li span{
+    -webkit-text-fill-color:#086495;
+    
+  }
   
+
+
 }
 
 
@@ -8144,7 +8153,7 @@ text-align:center;
 
 .webskillsc a{
   width: 33%;
-text-align:center;
+  text-align:center;
 
 }
 
