@@ -3635,7 +3635,7 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
-  
+
 }
 
 .navbar .navbar-toggler {
@@ -7876,43 +7876,45 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
-.skills{
+
+.skills {
   font-size: 2em;
   text-transform: uppercase;
-  
-  
+
+
 }
 
-.skilldiv{
+.skilldiv {
   width: auto;
-  text-align:center;
+  text-align: center;
 }
 
-.skilldiv li{
-  color:#086495;
-  list-style : none;
- 
+.skilldiv li {
+  color: #086495;
+  list-style: none;
+
 }
 
-li span{
-  
+li span {
+
   background: -webkit-linear-gradient(#050b0e, #086495);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
 }
 
 
 
-.skillsection{
+.skillsection {
   display: flex;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
+  height:300px;
 }
 
-.softskilldiv{
-  width:50%;
-  
+.softskilldiv {
+  width: 50%;
+
 }
 
 
@@ -7933,10 +7935,10 @@ li span{
     left: 16%;
   }
 
-  .rsbutton{
-  margin-bottom : 9%;
+  .rsbutton {
+    margin-bottom: 9%;
   }
-  
+
   .button-container {
     display: flex;
     flex-wrap: nowrap;
@@ -7964,71 +7966,72 @@ li span{
 
   .html5 {
     width: 80%;
-    
+
   }
-  
+
   .hover:hover {
     transform: scale(1.2);
     transform: rotate(720deg);
     transition: ease-in-out 1s;
-  
+
   }
-  
+
   .css3 {
     width: 58%;
-  
+
   }
-  
+
   .js {
     width: 74%;
-  
+
   }
-  
+
   .php {
     width: 85%;
     margin-top: 3%;
-  
+
   }
-  
+
   .boot {
     width: 85%;
-  
+
   }
-  
+
   .word {
     width: 140%;
-  
+
   }
-  
+
   .git {
     width: 100%;
   }
-  
-  .symph{
+
+  .symph {
     width: 100%;
   }
 
-  .skillsection .NC{
-    padding-top :13%;
+  .skillsection .NC {
+    padding-top: 13%;
   }
 
-  .skills{
+  .skills {
     font-size: 1.1em;
-    
+
   }
 
 
   .skillsection {
     justify-content: flex-start;
+    height:400px;
   }
 
-  li span{
-    -webkit-text-fill-color:#086495;
+  li span {
+    -webkit-text-fill-color: #086495;
 
-    
+
   }
-  
-  .big{
+
+  .big {
     font-size: 1.2em;
   }
 
@@ -8055,6 +8058,7 @@ li span{
 
   .skillsection {
     justify-content: flex-start;
+    height: 600px;
   }
 
 
@@ -8091,11 +8095,11 @@ li span{
 
   }
 
-  .skillsection .NC{
-    padding-top :6.5%;  
+  .skillsection .NC {
+    padding-top: 6.5%;
   }
 
-  
+
 }
 
 
@@ -8119,143 +8123,232 @@ li span{
   font-size: 1.2em;
 }
 
-.info{
-  font-size:1.2em;
+.info {
+  font-size: 1.2em;
 }
 
-.jobtitle{
-  font-size:1.5em;
+.jobtitle {
+  font-size: 1.5em;
 }
 
-.webskillsa{
+.webskillsa {
   display: flex;
   justify-content: center;
-  margin-top : 2%;
+  margin-top: 2%;
 }
 
-.webskillsa a{
+.webskillsa a {
   width: 33%;
-text-align:center;
+  text-align: center;
 }
 
-.webskillsb{
+.webskillsb {
   display: flex;
   justify-content: center;
-  margin-top : 10%;
+  margin-top: 10%;
 }
 
-.webskillsb a{
+.webskillsb a {
   width: 33%;
-text-align:center;
+  text-align: center;
 }
 
-.webskillsc{
+.webskillsc {
   display: flex;
   justify-content: center;
-  margin-top : 10%;
+  margin-top: 10%;
 }
 
-.webskillsc a{
+.webskillsc a {
   width: 33%;
-  text-align:center;
+  text-align: center;
 
 }
 
 @media screen and (min-width: 431px) and (max-width: 1800px) {
-.html5 {
-  width: 40%;
-  
+  .html5 {
+    width: 40%;
+
+  }
+
+  .hover {
+    transition: ease-in-out 1s;
+  }
+
+  .hover:hover {
+    transform: scale(1.2);
+    transform: rotate(720deg);
+
+
+  }
+
+  .css3 {
+    width: 29%;
+
+  }
+
+  .js {
+    width: 36%;
+
+  }
+
+  .php {
+    width: 50%;
+    margin-top: 3%;
+
+  }
+
+  .boot {
+    width: 50%;
+
+  }
+
+  .word {
+    width: 65%;
+
+  }
+
+  .git {
+    width: 58%;
+  }
+
+  .symph {
+    width: 58%;
+  }
+
 }
 
-.hover{
-  transition: ease-in-out 1s; 
-}
-.hover:hover {
-  transform: scale(1.2);
-  transform: rotate(720deg);
-  
-
-}
-
-.css3 {
-  width: 29%;
-
-}
-
-.js {
-  width: 36%;
-
-}
-
-.php {
-  width: 50%;
-  margin-top: 3%;
-
-}
-
-.boot {
-  width: 50%;
-
-}
-
-.word {
-  width: 65%;
-
-}
-
-.git {
-  width: 58%;
-}
-
-.symph{
-  width: 58%;
-}
-
-}
-
-.contactlink{
+.contactlink {
   color: #097caa;
 }
 
-.contactlink:hover{
+.contactlink:hover {
   color: blue;
 }
 
-.introduction{
-  display:flex;
+.introduction {
+  display: flex;
   flex-direction: column;
   text-align: justify;
 }
 
 
-.introduction p{
-  text-align:justify;
+.introduction p {
+  text-align: justify;
 }
 
-.softskilldiv li{
-  
-    color: #097caa;
-    list-style: none;
+.softskilldiv li {
+
+  color: #097caa;
+  list-style: none;
 
 }
 
-.cc-contact{
+.cc-contact {
   background-image: url(/images/lensmap.png);
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1374px) {
-  .nav-item{
-    width:150px;
-  } 
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+  .nav-item {
+    width: 150px;
+  }
 
   .navbar.navbar-transparent {
-    padding-left: 25%;
+    padding-left: 47%;
   }
 }
 
-.softskillsection{
+@media screen and (min-width: 1250px) and (max-width: 1400px) {
+  .navbar.navbar-transparent {
+    padding-left: 40%;
+  }
+
+  .nav-item {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1102px) and (max-width: 1250px) {
+  .navbar.navbar-transparent {
+    padding-left: 30%;
+  }
+
+  .nav-item {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1102px) {
+  .navbar.navbar-transparent {
+    padding-left: 30%;
+  }
+}
+
+.softskillsection {
   display: flex;
   justify-content: flex-start;
+  height:400px;
 
 }
+
+.infobulle{
+	transform : scale(0) rotateX(-180deg);
+	position : absolute;
+	background-color : #000000;
+	color : white;
+	border-radius : 25px;
+	padding : 8px;
+  margin-top : 35px;
+	box-shadow : 1px 1px 0 0.5px rgba(0,0,0,0.3);
+	border-bottom : 3px solid rgba(255,255,255,0.3);
+	border-left : 10px solid transparent;
+	border-right : 10px solid transparent;
+  transition : 1s;
+  width: 15%;
+}
+.infobulle::before{
+	content : '';
+	position : absolute;
+	border-bottom : 8px solid #2e3048;
+	border-left : 8px solid transparent;
+	border-right : 8px solid transparent;
+}
+
+
+.element:hover > .infobulle{
+  transform : scale(1) rotateX(0deg);
+  
+}
+
+@media screen and (max-width: 430px) {
+  
+
+  .infobulle{
+    display:none;
+  }
+  
+
+  .softskillsection {
+    height: 250px;
+  }
+}
+
+
+
+
+/* .bubble-text {
+  background: #139ee0;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 3px;
+  width: 350px;
+}
+
+.bubble-text::after {
+  content: "";
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #139ee0;
+  position: absolute;
+} */
