@@ -7890,7 +7890,7 @@ a.credit {
 
 .skilldiv li{
   color:#086495;
-  list-style : square;
+  list-style : none;
  
 }
 
@@ -7903,6 +7903,7 @@ li span{
 }
 
 
+
 .skillsection{
   display: flex;
   flex-flow:row wrap;
@@ -7911,7 +7912,7 @@ li span{
 
 .softskilldiv{
   width:50%;
-  text-align:center;
+  
 }
 
 
@@ -8012,8 +8013,12 @@ li span{
   }
 
   .skills{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
+
+  .skillsection {
+    justify-content: flex-start;
+}
   
 }
 
@@ -8035,7 +8040,9 @@ li span{
     left: 30%;
   }
 
-
+  .skillsection {
+    justify-content: flex-start;
+  }
 
 
   .button-container {
@@ -8138,6 +8145,7 @@ text-align:center;
 .webskillsc a{
   width: 33%;
 text-align:center;
+
 }
 
 @media screen and (min-width: 431px) and (max-width: 1800px) {
@@ -8146,10 +8154,13 @@ text-align:center;
   
 }
 
+.hover{
+  transition: ease-in-out 1s; 
+}
 .hover:hover {
   transform: scale(1.2);
   transform: rotate(720deg);
-  transition: ease-in-out 1s;
+  
 
 }
 
@@ -8211,7 +8222,7 @@ text-align:center;
 .softskilldiv li{
   
     color: #097caa;
-    list-style: square;
+    list-style: none;
 
 }
 
@@ -8228,4 +8239,10 @@ text-align:center;
   .navbar.navbar-transparent {
     padding-left: 25%;
   }
+}
+
+.softskillsection{
+  display: flex;
+  justify-content: flex-start;
+
 }
