@@ -8024,9 +8024,13 @@ li span{
 
   li span{
     -webkit-text-fill-color:#086495;
+
     
   }
   
+  .big{
+    font-size: 1.2em;
+  }
 
 
 }
