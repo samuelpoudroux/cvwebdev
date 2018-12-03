@@ -8218,3 +8218,14 @@ text-align:center;
 .cc-contact{
   background-image: url(/images/lensmap.png);
 }
+
+
+@media screen and (min-width: 992px) and (max-width: 1374px) {
+  .nav-item{
+    width:150px;
+  } 
+
+  .navbar.navbar-transparent {
+    padding-left: 25%;
+  }
+}
