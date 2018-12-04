@@ -7909,7 +7909,7 @@ li span {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  height:300px;
+  height:350px;
 }
 
 .softskilldiv {
@@ -8300,19 +8300,26 @@ li span {
 	border-radius : 25px;
 	padding : 8px;
   margin-top : 35px;
+  margin-bottom: 25px;
 	box-shadow : 1px 1px 0 0.5px rgba(0,0,0,0.3);
 	border-bottom : 3px solid rgba(255,255,255,0.3);
 	border-left : 10px solid transparent;
 	border-right : 10px solid transparent;
   transition : 1s;
-  width: 15%;
+  width: auto;
+  height:auto;
+  font-size: 0.8em;
 }
+
 .infobulle::before{
 	content : '';
 	position : absolute;
-	border-bottom : 8px solid #2e3048;
+	/* border-bottom : 8px solid #2e3048;
 	border-left : 8px solid transparent;
-	border-right : 8px solid transparent;
+  border-right : 8px solid transparent; */
+  margin-top : 0;
+	margin-left : 0;
+
 }
 
 
@@ -8335,8 +8342,23 @@ li span {
 }
 
 
+@media screen and (min-width: 500px) and (max-width: 1102px) {
+  .navbar.navbar-transparent {
+    padding-left: 30%;
+  }
+  .infobulle{
+    width: 25%;
 
+  }
 
+  .skillsection {
+    height: 500px;
+  }
+
+  .softskillsection {
+    height: 500px;
+  }
+}
 /* .bubble-text {
   background: #139ee0;
   color: #fff;
@@ -8352,3 +8374,7 @@ li span {
   border-top: 20px solid #139ee0;
   position: absolute;
 } */
+
+.infobulle p {
+  margin-bottom : 5px;
+}
