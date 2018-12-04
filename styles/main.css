@@ -7897,7 +7897,7 @@ a.credit {
 
 li span {
 
-  background: -webkit-linear-gradient(#050b0e, #086495);
+  background: -webkit-linear-gradient(#81878a, #f7f9fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -8025,12 +8025,7 @@ li span {
     height:400px;
   }
 
-  li span {
-    -webkit-text-fill-color: #086495;
-
-
-  }
-
+  
   .big {
     font-size: 1.2em;
   }
@@ -8377,4 +8372,10 @@ li span {
 
 .infobulle p {
   margin-bottom : 5px;
+}
+
+.cartemarketing{
+  background-color:black;
+  border-radius: 25px;
+  box-shadow: blue;
 }
