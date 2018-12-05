@@ -41,3 +41,29 @@ $('a.smooth-scroll')
     }
   }
 });
+
+//fonction que j'ai rajouté pour le webdev
+// var tableau = "Web Developer chargé de projets";
+// var tabl = [];
+// var div = document.querySelector(".jobtitle");
+// var texte = tableau.split('');
+// var txt = texte.length;
+// var ok = '';
+// var msg = txt - 1;
+// var i = 0;
+
+
+// var bis = 0;
+// function change() {
+//     for (i = 0; i < txt; i++) {
+//         console.log('ok');
+//         texte[i] = ok + texte[i]
+//         tabl.push(texte[i]);
+//         ok = texte[i];
+//     }
+//     div.innerHTML = tabl[bis];
+//     bis++;
+// }
+
+
+// setInterval("change()", 150);
