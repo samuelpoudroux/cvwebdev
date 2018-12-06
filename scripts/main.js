@@ -42,7 +42,7 @@ $('a.smooth-scroll')
   }
 });
 
-//fonction que j'ai rajouté pour le webdev
+// fonction que j'ai rajouté pour le webdev
 // var tableau = "Web Developer chargé de projets";
 // var tabl = [];
 // var div = document.querySelector(".jobtitle");
