@@ -7995,6 +7995,13 @@ a.credit {
     width: 100%;
   }
 
+  .sql{
+    width:60%;
+    height: 70%;
+
+  }
+
+
   .skillsection .NC {
     padding-top: 7%;
   }
@@ -8151,7 +8158,7 @@ a.credit {
 
 }
 
-@media screen and (min-width: 431px) and (max-width: 1800px) {
+@media screen and (min-width: 431px) and (max-width: 2000px) {
   .html5 {
     width: 40%;
 
@@ -8201,7 +8208,13 @@ a.credit {
   .symph {
     width: 58%;
   }
+  .sql{
+    width:50%;
+    height: 50%;
 
+  }
+
+  
 }
 
 .contactlink {
@@ -8318,10 +8331,6 @@ a.credit {
 @media screen and (max-width: 430px) {
 
 
-  .infobulle {
-    display: none;
-  }
-
 
   .softskillsection {
     height: 250px;
@@ -8366,5 +8375,23 @@ a.credit {
   box-shadow: 2px 3px 25px 3px rgb(66, 65, 65);
   background-color: black;
   border-radius: 25px;
+
+}
+
+
+@media screen and (min-width: 359px) and (max-width: 800px) {
+
+  .AF .infobulle{ 
+    display : none
+    
+  }
+  
+  
+  
+  .element:hover>.infobulle {
+    transform: scale(1) rotateX(0deg);
+  
+  }
+
 
 }
