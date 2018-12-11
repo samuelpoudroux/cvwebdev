@@ -8373,6 +8373,7 @@ a.credit {
   
   .AF .infobulle{ 
     display:   block;
+    height: 12%;
        
   }
 
@@ -8396,6 +8397,9 @@ a.credit {
     
   }
   
+
+ 
+
 }
 
 
@@ -8446,7 +8450,21 @@ a.credit {
 
 @media screen and (min-width: 358px) and (max-width: 800px) {
   
+  .gallery figure.cc-effect p,
+  .gallery figure.cc-effect button {
+    opacity: 1;
+  }
+
+  .gallery figure.cc-effect figcaption {
+    background: rgba(36, 35, 35, 0.6);
+    width: 85%;
+    margin:1em 1em 1em 1.5em ;
+    height: 85%;
+    
+  }
   
+}
+
 
   .element:hover>.infobulle {
     transform: scale(1) rotateX(0deg);
@@ -8484,3 +8502,10 @@ i{
 
 }
 
+.contactmailphone{
+  color:white;
+}
+
+.iconcontact a:hover{
+  color:rgb(39, 100, 141);
+}
