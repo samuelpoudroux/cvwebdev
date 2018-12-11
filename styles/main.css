@@ -8336,6 +8336,10 @@ a.credit {
 
 @media screen and (max-width: 430px) {
 
+  .skills{
+    margin-top: 20px;
+  }
+
   .hideme{
   opacity:0;
   }
@@ -8351,7 +8355,7 @@ a.credit {
     color: black;
     transition: 1s;
     width: 75%;
-    font-size: 0.6em;
+    font-size: 0.663em;
     margin-right: 15%;
     transform: none;
     
