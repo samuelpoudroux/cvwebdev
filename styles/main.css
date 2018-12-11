@@ -7570,7 +7570,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5);
+  background: rgba(66, 66, 66, 0.8);
 }
 
 .gallery figure.cc-effect:hover .h4,
@@ -8335,7 +8335,6 @@ a.credit {
 }
 
 @media screen and (max-width: 430px) {
-  
 
   .hideme{
   opacity:0;
@@ -8359,8 +8358,8 @@ a.credit {
     margin-top: 22px;
     height: 14%;
 
-}
   }
+  
 
   .infobulle h3{
     font-size: 2em;
@@ -8377,6 +8376,26 @@ a.credit {
        
   }
 
+  .gallery figure.cc-effect .h4 {
+
+    opacity: 1;
+    margin-top: 12%;
+
+  }
+  
+  .gallery figure.cc-effect p,
+  .gallery figure.cc-effect button {
+    opacity: 1;
+  }
+
+  .gallery figure.cc-effect figcaption {
+    background: rgba(36, 35, 35, 0.6);
+    width: 85%;
+    margin:1em 1em 1em 1.5em ;
+    height: 85%;
+    
+  }
+  
 }
 
 
@@ -8449,6 +8468,18 @@ i{
   .infobulle {
     display: none;
   
+  }
+
+  .gallery figure.cc-effect .h4 {
+
+    opacity: 1;
+    margin-top: 12%;
+  }
+  
+  .gallery figure.cc-effect p,
+  .gallery figure.cc-effect button {
+  opacity: 1;
+
   }
 
 }
