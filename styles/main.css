@@ -8397,7 +8397,9 @@ a.credit {
     
   }
   
-
+ i{
+   margin-top: 21%;
+ }
  
 
 }
@@ -8420,6 +8422,8 @@ a.credit {
   .softskillsection {
     height: 500px;
   }
+
+  
 }
 
 
@@ -8508,4 +8512,10 @@ i{
 
 .iconcontact a:hover{
   color:rgb(39, 100, 141);
+}
+
+@media screen and (min-width: 431px) and (max-width: 1020px) {
+  i{
+  margin-top: 15%;
+  }
 }
