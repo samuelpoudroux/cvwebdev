@@ -1,6 +1,6 @@
 # cv
 
-Aprés un mois de formation Popschool, j'ai souhaité utilisé mes premiéres
+Aprés un mois de formation Popschool, j'ai souhaité utiliser mes premiéres
 connaissances afin de créer mon CV.
 
 Alors effectivement j'ai utilisé un template bootstrap où j'ai pû y apporter mon propre contenu et mes touches personnelles ou j'ai du y ajouter des médias querries.
